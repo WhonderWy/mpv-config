@@ -29,9 +29,9 @@ function multiply_framerate()
     elseif fps >= 16 and fps < 24 then
         new_fps = fps * 3
         -- special case for 23.976
-        if fps >= 23 then
-            new_fps = fps * 2
-        end
+        -- if fps >= 23 then
+        --     new_fps = fps * 2
+        -- end
     elseif fps >= 24 and fps < 30 then
         new_fps = fps * 2
     elseif fps >= 30 and fps < 60 then
